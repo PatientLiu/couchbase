@@ -7,6 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "couchDemo.h"
+#import "couchbasePro.h"
+
+#import <CouchbaseLite/CouchbaseLite.h>
+@interface CouchbaseEvents : NSObject
+- (BOOL) helloCBL;
+@end
+@implementation CouchbaseEvents
+- (BOOL)helloCBL {
+    return NO;
+}
+@end
+
 
 @interface AppDelegate ()
 
@@ -16,6 +29,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.dict = @{NSStringFromProtocol(@protocol(couchbasePro)):[couchDemo new]};
+
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,5 +56,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions
+{
+    CouchbaseEvents* cbevents = [[CouchbaseEvents alloc] init];
+    return [cbevents helloCBL];
+}
+
+
 
 @end

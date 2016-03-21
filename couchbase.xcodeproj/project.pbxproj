@@ -15,6 +15,8 @@
 		9A5A8F1A1C9FA1B9001EDE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A8F181C9FA1B9001EDE6D /* LaunchScreen.storyboard */; };
 		9A5A8F251C9FA1B9001EDE6D /* couchbaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F241C9FA1B9001EDE6D /* couchbaseTests.m */; };
 		9A5A8F301C9FA1B9001EDE6D /* couchbaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F2F1C9FA1B9001EDE6D /* couchbaseUITests.m */; };
+		9A5A8F431C9FACCA001EDE6D /* couchDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F421C9FACCA001EDE6D /* couchDemo.m */; };
+		E698FB0E993AB70FFA1177C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0644D3035991544217EF06 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1168FA1714A4030B6E8FF4AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		26D01349D4FF8EA2C3E632AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3B0644D3035991544217EF06 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5A8F071C9FA1B9001EDE6D /* couchbase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = couchbase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5A8F0B1C9FA1B9001EDE6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A5A8F0D1C9FA1B9001EDE6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		9A5A8F2B1C9FA1B9001EDE6D /* couchbaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = couchbaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5A8F2F1C9FA1B9001EDE6D /* couchbaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = couchbaseUITests.m; sourceTree = "<group>"; };
 		9A5A8F311C9FA1B9001EDE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5A8F3D1C9FAC32001EDE6D /* couchbasePro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = couchbasePro.h; sourceTree = "<group>"; };
+		9A5A8F411C9FACCA001EDE6D /* couchDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = couchDemo.h; sourceTree = "<group>"; };
+		9A5A8F421C9FACCA001EDE6D /* couchDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = couchDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E698FB0E993AB70FFA1177C2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A564438080D1E2853CD8D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B0644D3035991544217EF06 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A5A8EFE1C9FA1B9001EDE6D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				9A5A8F231C9FA1B9001EDE6D /* couchbaseTests */,
 				9A5A8F2E1C9FA1B9001EDE6D /* couchbaseUITests */,
 				9A5A8F081C9FA1B9001EDE6D /* Products */,
+				C49AACB4D5A37757F69F36C8 /* Pods */,
+				3A564438080D1E2853CD8D89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,9 @@
 				9A5A8F0E1C9FA1B9001EDE6D /* AppDelegate.m */,
 				9A5A8F101C9FA1B9001EDE6D /* ViewController.h */,
 				9A5A8F111C9FA1B9001EDE6D /* ViewController.m */,
+				9A5A8F3D1C9FAC32001EDE6D /* couchbasePro.h */,
+				9A5A8F411C9FACCA001EDE6D /* couchDemo.h */,
+				9A5A8F421C9FACCA001EDE6D /* couchDemo.m */,
 				9A5A8F131C9FA1B9001EDE6D /* Main.storyboard */,
 				9A5A8F161C9FA1B9001EDE6D /* Assets.xcassets */,
 				9A5A8F181C9FA1B9001EDE6D /* LaunchScreen.storyboard */,
@@ -140,6 +162,15 @@
 			path = couchbaseUITests;
 			sourceTree = "<group>";
 		};
+		C49AACB4D5A37757F69F36C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1168FA1714A4030B6E8FF4AF /* Pods.debug.xcconfig */,
+				26D01349D4FF8EA2C3E632AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A5A8F341C9FA1B9001EDE6D /* Build configuration list for PBXNativeTarget "couchbase" */;
 			buildPhases = (
+				0F295584BD892DE386561BB9 /* Check Pods Manifest.lock */,
 				9A5A8F031C9FA1B9001EDE6D /* Sources */,
 				9A5A8F041C9FA1B9001EDE6D /* Frameworks */,
 				9A5A8F051C9FA1B9001EDE6D /* Resources */,
+				64B12914A993CD5806427E50 /* Embed Pods Frameworks */,
+				8238E1C6AF72B79EA9AB7C81 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,12 +299,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F295584BD892DE386561BB9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64B12914A993CD5806427E50 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8238E1C6AF72B79EA9AB7C81 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A5A8F031C9FA1B9001EDE6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A5A8F121C9FA1B9001EDE6D /* ViewController.m in Sources */,
+				9A5A8F431C9FACCA001EDE6D /* couchDemo.m in Sources */,
 				9A5A8F0F1C9FA1B9001EDE6D /* AppDelegate.m in Sources */,
 				9A5A8F0C1C9FA1B9001EDE6D /* main.m in Sources */,
 			);
@@ -411,6 +494,7 @@
 		};
 		9A5A8F351C9FA1B9001EDE6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1168FA1714A4030B6E8FF4AF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = couchbase/Info.plist;
@@ -422,6 +506,7 @@
 		};
 		9A5A8F361C9FA1B9001EDE6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D01349D4FF8EA2C3E632AC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = couchbase/Info.plist;
@@ -498,6 +583,7 @@
 				9A5A8F361C9FA1B9001EDE6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A5A8F371C9FA1B9001EDE6D /* Build configuration list for PBXNativeTarget "couchbaseTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +592,7 @@
 				9A5A8F391C9FA1B9001EDE6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A5A8F3A1C9FA1B9001EDE6D /* Build configuration list for PBXNativeTarget "couchbaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +601,7 @@
 				9A5A8F3C1C9FA1B9001EDE6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
