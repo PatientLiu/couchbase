@@ -15,6 +15,9 @@
 @end
 
 @implementation couchDemo
+//类 interface
+//RCT_EXPORT_MODULE(CouchBase);
+
 //Create
 -(void)CreateDoga:(NSString *)str callbackyes:(void(^)(NSString *,CBLDatabase *))couch
 {
@@ -53,6 +56,7 @@
     CBLSavedRevision *newRev = [getDocument putProperties:docContent error:&error];
     if (!newRev) {
         NSLog(@"Cannot update document. Error message: %@", error.localizedDescription);
+        NSLog(@"%@",error.userInfo);
     }
     // 5. Display the new revision of the document
     NSLog(@"The new revision of the document contains: %@", newRev.properties);
@@ -68,10 +72,13 @@
     NSLog(@"%@",error);
 }
 
-
-
 //query
-
+-(void)query:(CBLDatabase*) database documentId:(NSString*) documentId
+{
+    CBLDocument *document = [database documentWithID:documentId];
+    
+    NSLog(@"%@",document.properties);
+}
 
 - (id)init {
     self = [super init];
@@ -90,4 +97,10 @@
     }
     return self;
 }
+
+
+
+
+
+
 @end

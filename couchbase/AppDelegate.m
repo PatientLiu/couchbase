@@ -30,7 +30,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.dict = @{NSStringFromProtocol(@protocol(couchbasePro)):[couchDemo new]};
-
+    
     // Override point for customization after application launch.
     return YES;
 }

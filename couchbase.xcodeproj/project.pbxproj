@@ -16,6 +16,17 @@
 		9A5A8F251C9FA1B9001EDE6D /* couchbaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F241C9FA1B9001EDE6D /* couchbaseTests.m */; };
 		9A5A8F301C9FA1B9001EDE6D /* couchbaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F2F1C9FA1B9001EDE6D /* couchbaseUITests.m */; };
 		9A5A8F431C9FACCA001EDE6D /* couchDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F421C9FACCA001EDE6D /* couchDemo.m */; };
+		9A5A8F551CA0F7C6001EDE6D /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8F541CA0F7C6001EDE6D /* CalendarManager.m */; };
+		9A5A8FCE1CA13DB8001EDE6D /* CBLHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FC21CA13DB8001EDE6D /* CBLHTTPConnection.m */; };
+		9A5A8FCF1CA13DB8001EDE6D /* CBLHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FC41CA13DB8001EDE6D /* CBLHTTPResponse.m */; };
+		9A5A8FD01CA13DB8001EDE6D /* CBLHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FC61CA13DB8001EDE6D /* CBLHTTPServer.m */; };
+		9A5A8FD11CA13DB8001EDE6D /* CBLListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FC81CA13DB8001EDE6D /* CBLListener.m */; };
+		9A5A8FD21CA13DB8001EDE6D /* CouchbaseLiteListener-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A8FC91CA13DB8001EDE6D /* CouchbaseLiteListener-Info.plist */; };
+		9A5A8FD31CA13DB8001EDE6D /* CouchbaseLiteListener.exp in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FCA1CA13DB8001EDE6D /* CouchbaseLiteListener.exp */; };
+		9A5A8FD41CA13DB8001EDE6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A8FCB1CA13DB8001EDE6D /* InfoPlist.strings */; };
+		9A5A8FD81CA13E01001EDE6D /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FD71CA13E01001EDE6D /* HTTPServer.m */; };
+		9A5A8FDB1CA13E92001EDE6D /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8FDA1CA13E92001EDE6D /* HTTPConnection.m */; };
+		9AC4D0B61CA1737100D572A0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC4D0B51CA1737100D572A0 /* CFNetwork.framework */; };
 		E698FB0E993AB70FFA1177C2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0644D3035991544217EF06 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +70,24 @@
 		9A5A8F3D1C9FAC32001EDE6D /* couchbasePro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = couchbasePro.h; sourceTree = "<group>"; };
 		9A5A8F411C9FACCA001EDE6D /* couchDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = couchDemo.h; sourceTree = "<group>"; };
 		9A5A8F421C9FACCA001EDE6D /* couchDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = couchDemo.m; sourceTree = "<group>"; };
+		9A5A8F531CA0F7C6001EDE6D /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
+		9A5A8F541CA0F7C6001EDE6D /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		9A5A8FC11CA13DB8001EDE6D /* CBLHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLHTTPConnection.h; sourceTree = "<group>"; };
+		9A5A8FC21CA13DB8001EDE6D /* CBLHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLHTTPConnection.m; sourceTree = "<group>"; };
+		9A5A8FC31CA13DB8001EDE6D /* CBLHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLHTTPResponse.h; sourceTree = "<group>"; };
+		9A5A8FC41CA13DB8001EDE6D /* CBLHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLHTTPResponse.m; sourceTree = "<group>"; };
+		9A5A8FC51CA13DB8001EDE6D /* CBLHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLHTTPServer.h; sourceTree = "<group>"; };
+		9A5A8FC61CA13DB8001EDE6D /* CBLHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLHTTPServer.m; sourceTree = "<group>"; };
+		9A5A8FC71CA13DB8001EDE6D /* CBLListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLListener.h; sourceTree = "<group>"; };
+		9A5A8FC81CA13DB8001EDE6D /* CBLListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLListener.m; sourceTree = "<group>"; };
+		9A5A8FC91CA13DB8001EDE6D /* CouchbaseLiteListener-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CouchbaseLiteListener-Info.plist"; sourceTree = "<group>"; };
+		9A5A8FCA1CA13DB8001EDE6D /* CouchbaseLiteListener.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = CouchbaseLiteListener.exp; sourceTree = "<group>"; };
+		9A5A8FCC1CA13DB8001EDE6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A5A8FD61CA13E01001EDE6D /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		9A5A8FD71CA13E01001EDE6D /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		9A5A8FD91CA13E92001EDE6D /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		9A5A8FDA1CA13E92001EDE6D /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		9AC4D0B51CA1737100D572A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC4D0B61CA1737100D572A0 /* CFNetwork.framework in Frameworks */,
 				E698FB0E993AB70FFA1177C2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +120,7 @@
 		3A564438080D1E2853CD8D89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AC4D0B51CA1737100D572A0 /* CFNetwork.framework */,
 				3B0644D3035991544217EF06 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -98,6 +129,7 @@
 		9A5A8EFE1C9FA1B9001EDE6D = {
 			isa = PBXGroup;
 			children = (
+				9A5A8FC01CA13DB8001EDE6D /* Listener */,
 				9A5A8F091C9FA1B9001EDE6D /* couchbase */,
 				9A5A8F231C9FA1B9001EDE6D /* couchbaseTests */,
 				9A5A8F2E1C9FA1B9001EDE6D /* couchbaseUITests */,
@@ -127,6 +159,8 @@
 				9A5A8F3D1C9FAC32001EDE6D /* couchbasePro.h */,
 				9A5A8F411C9FACCA001EDE6D /* couchDemo.h */,
 				9A5A8F421C9FACCA001EDE6D /* couchDemo.m */,
+				9A5A8F531CA0F7C6001EDE6D /* CalendarManager.h */,
+				9A5A8F541CA0F7C6001EDE6D /* CalendarManager.m */,
 				9A5A8F131C9FA1B9001EDE6D /* Main.storyboard */,
 				9A5A8F161C9FA1B9001EDE6D /* Assets.xcassets */,
 				9A5A8F181C9FA1B9001EDE6D /* LaunchScreen.storyboard */,
@@ -160,6 +194,28 @@
 				9A5A8F311C9FA1B9001EDE6D /* Info.plist */,
 			);
 			path = couchbaseUITests;
+			sourceTree = "<group>";
+		};
+		9A5A8FC01CA13DB8001EDE6D /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				9A5A8FC11CA13DB8001EDE6D /* CBLHTTPConnection.h */,
+				9A5A8FC21CA13DB8001EDE6D /* CBLHTTPConnection.m */,
+				9A5A8FC31CA13DB8001EDE6D /* CBLHTTPResponse.h */,
+				9A5A8FC41CA13DB8001EDE6D /* CBLHTTPResponse.m */,
+				9A5A8FC51CA13DB8001EDE6D /* CBLHTTPServer.h */,
+				9A5A8FC61CA13DB8001EDE6D /* CBLHTTPServer.m */,
+				9A5A8FC71CA13DB8001EDE6D /* CBLListener.h */,
+				9A5A8FC81CA13DB8001EDE6D /* CBLListener.m */,
+				9A5A8FD61CA13E01001EDE6D /* HTTPServer.h */,
+				9A5A8FD71CA13E01001EDE6D /* HTTPServer.m */,
+				9A5A8FD91CA13E92001EDE6D /* HTTPConnection.h */,
+				9A5A8FDA1CA13E92001EDE6D /* HTTPConnection.m */,
+				9A5A8FC91CA13DB8001EDE6D /* CouchbaseLiteListener-Info.plist */,
+				9A5A8FCA1CA13DB8001EDE6D /* CouchbaseLiteListener.exp */,
+				9A5A8FCB1CA13DB8001EDE6D /* InfoPlist.strings */,
+			);
+			path = Listener;
 			sourceTree = "<group>";
 		};
 		C49AACB4D5A37757F69F36C8 /* Pods */ = {
@@ -277,9 +333,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5A8FD21CA13DB8001EDE6D /* CouchbaseLiteListener-Info.plist in Resources */,
 				9A5A8F1A1C9FA1B9001EDE6D /* LaunchScreen.storyboard in Resources */,
 				9A5A8F171C9FA1B9001EDE6D /* Assets.xcassets in Resources */,
 				9A5A8F151C9FA1B9001EDE6D /* Main.storyboard in Resources */,
+				9A5A8FD41CA13DB8001EDE6D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,10 +410,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5A8F551CA0F7C6001EDE6D /* CalendarManager.m in Sources */,
+				9A5A8FD31CA13DB8001EDE6D /* CouchbaseLiteListener.exp in Sources */,
 				9A5A8F121C9FA1B9001EDE6D /* ViewController.m in Sources */,
+				9A5A8FD11CA13DB8001EDE6D /* CBLListener.m in Sources */,
+				9A5A8FD01CA13DB8001EDE6D /* CBLHTTPServer.m in Sources */,
+				9A5A8FD81CA13E01001EDE6D /* HTTPServer.m in Sources */,
 				9A5A8F431C9FACCA001EDE6D /* couchDemo.m in Sources */,
+				9A5A8FDB1CA13E92001EDE6D /* HTTPConnection.m in Sources */,
 				9A5A8F0F1C9FA1B9001EDE6D /* AppDelegate.m in Sources */,
 				9A5A8F0C1C9FA1B9001EDE6D /* main.m in Sources */,
+				9A5A8FCE1CA13DB8001EDE6D /* CBLHTTPConnection.m in Sources */,
+				9A5A8FCF1CA13DB8001EDE6D /* CBLHTTPResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +471,14 @@
 				9A5A8F191C9FA1B9001EDE6D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A5A8FCB1CA13DB8001EDE6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A5A8FCC1CA13DB8001EDE6D /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,6 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HooLay.couchbase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/React/React/**";
 			};
 			name = Debug;
 		};
@@ -513,6 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HooLay.couchbase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/React/React/**";
 			};
 			name = Release;
 		};

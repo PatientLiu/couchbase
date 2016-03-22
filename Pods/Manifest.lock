@@ -2,6 +2,28 @@ PODS:
   - couchbase-lite-ios (1.2.0):
     - couchbase-lite-ios/SQLite (= 1.2.0)
   - couchbase-lite-ios/SQLite (1.2.0)
+  - React (0.13.0-rc):
+    - React/Core (= 0.13.0-rc)
+  - React/Core (0.13.0-rc)
+  - React/RCTActionSheet (0.13.0-rc):
+    - React/Core
+  - React/RCTGeolocation (0.13.0-rc):
+    - React/Core
+  - React/RCTImage (0.13.0-rc):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.13.0-rc):
+    - React/Core
+  - React/RCTNetwork (0.13.0-rc):
+    - React/Core
+  - React/RCTSettings (0.13.0-rc):
+    - React/Core
+  - React/RCTText (0.13.0-rc):
+    - React/Core
+  - React/RCTVibration (0.13.0-rc):
+    - React/Core
+  - React/RCTWebSocket (0.13.0-rc):
+    - React/Core
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -12,10 +34,21 @@ PODS:
 
 DEPENDENCIES:
   - couchbase-lite-ios (~> 1.2.0)
+  - React (= 0.13.0-rc)
+  - React/RCTActionSheet
+  - React/RCTGeolocation
+  - React/RCTImage
+  - React/RCTLinkingIOS
+  - React/RCTNetwork
+  - React/RCTSettings
+  - React/RCTText
+  - React/RCTVibration
+  - React/RCTWebSocket
   - ReactiveCocoa (~> 2.5)
 
 SPEC CHECKSUMS:
   couchbase-lite-ios: 509ee0854830c9d1f1539829f596ad1839680834
+  React: f89fc8cb43f6cf89ba4e8ce4f27371a65236bf25
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
 COCOAPODS: 0.39.0

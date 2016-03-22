@@ -15,4 +15,5 @@
 -(void)addAttachment:(CBLDatabase *)datebase str:(NSString *)title documentId:(NSString *) documentId callback:(void(^)(BOOL))back;
 - (void) deleteDocument:(CBLDatabase*) database documentId:(NSString*) documentId;
 - (void) updateDocument:(CBLDatabase *) database documentId:(NSString *) documentId;
+-(void)query:(CBLDatabase*) database documentId:(NSString*) documentId;
 @end

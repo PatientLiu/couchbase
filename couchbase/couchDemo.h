@@ -8,5 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "couchbasePro.h"
+
 @interface couchDemo : NSObject<couchbasePro>
 @end

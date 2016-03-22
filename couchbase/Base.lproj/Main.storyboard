@@ -43,6 +43,13 @@
                                     <action selector="delete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9nB-5q-2D9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNM-7A-4Jj">
+                                <rect key="frame" x="126" y="253" width="46" height="30"/>
+                                <state key="normal" title="search"/>
+                                <connections>
+                                    <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4aa-A4-VQw"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGU-IO-zsQ">
                                 <rect key="frame" x="53" y="160" width="46" height="30"/>
                                 <state key="normal" title="Create"/>
